@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.max.ifp.SettingsActivity"
+    tools:showIn="@layout/app_bar_settings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IP Address" />
+
+        <EditText
+            android:id="@+id/editText_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/textView_port_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Port Send" />
+
+        <EditText
+            android:id="@+id/editText_port_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/textView_port_receive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Port Receive" />
+
+        <EditText
+            android:id="@+id/editText_port_receive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/textView_minTilt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minimum Tilt" />
+
+        <SeekBar
+            android:id="@+id/seekBar_minTilt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="80" />
+
+        <TextView
+            android:id="@+id/textView_maxTilt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maximum Tilt" />
+
+        <SeekBar
+            android:id="@+id/seekBar_maxTilt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="80" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSaveSettingsButton"
+            android:text="save" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClearSettingsButton"
+            android:text="clear" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

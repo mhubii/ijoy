@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">iJoy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_connect">ConnectActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_joystick">JoystickActivity</string>
+    <string name="title_activity_joystick2">JoystickActivity2</string>
+
+    <string name="button_sensor_active">Sensors active</string>
+    <string name="button_sensor_inactive">Sensors deactivated</string>
+</resources>
